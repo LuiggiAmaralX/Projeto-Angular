@@ -24,7 +24,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/",
+              "src/assets",
+              "src/favicon.ico",
+              "src/app/components/header"
             ],
             "styles": [
               "src/styles.css"

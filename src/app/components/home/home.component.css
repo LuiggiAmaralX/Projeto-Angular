@@ -1,0 +1,42 @@
+@import "../../../color-variables.scss";
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  padding: 0 70px;
+
+  span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #475569;
+  }
+
+  h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #0f172a;
+  }
+}
+
+.benefit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 70px;
+}
+
+@media (min-width: 1080px) {
+  .main-section {
+    flex-direction: row;
+  }
+
+  .benefit-section {
+    flex-direction: row;
+  }
+}
