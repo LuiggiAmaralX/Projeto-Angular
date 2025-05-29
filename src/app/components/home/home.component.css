@@ -1,5 +1,11 @@
 @import "../../../color-variables.scss";
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
+
 .main-section {
   display: flex;
   justify-content: center;
@@ -7,8 +13,6 @@
   flex-direction: column;
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
-  padding: 0 70px;
 
   span {
     font-size: 20px;
@@ -29,6 +33,33 @@
   align-items: center;
   justify-content: center;
   padding: 0 70px;
+
+  gap: 20px;
+}
+
+.benefit-section .benefit-data {
+  border-bottom: 10px solid #5222d0;
+  padding-bottom: 50px;
+}
+
+.benefit-section h2 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #0f172a;
+}
+
+.benefit-section p {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.benefit-section b {
+  background: -webkit-linear-gradient(#817a7a, #571870);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
 }
 
 @media (min-width: 1080px) {
